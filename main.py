@@ -1,16 +1,20 @@
-from biblioteca import *
+"""
+Módulo principal para gestionar una biblioteca.
+"""
 
-l=liblio("central")
+from biblioteca import Biblioteca, Book
 
-b1=bk("Python","Guido",1)
-b2=bk("Java","Gosling",2)
+objetoBiblioteca = Biblioteca("central")
 
-l.addb(b1)
-l.addb(b2)
+book1 = Book("Python","Guido",1)
+book2 = Book("Java","Gosling",2)
 
-l.show()
+objetoBiblioteca.addb(book1)
+objetoBiblioteca.addb(book2)
 
-print(b1.prest())
-print(b1.prest())
-b1.ret()
-print(b1.prest())
+objetoBiblioteca.show()
+
+print(book1.prest())
+print(book1.prest())
+book1.ret()
+print(book1.prest())

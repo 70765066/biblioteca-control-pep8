@@ -1,4 +1,4 @@
-class liblio:
+class Biblioteca:
  def __init__(s,n):
   s.n=n
   s.lb=[]
@@ -10,7 +10,7 @@ class liblio:
   for x in s.lb:
    print(x.t,x.a,x.i)
 
-class bk:
+class Book:
  def __init__(self,t,a,i):
   self.t=t
   self.a=a
