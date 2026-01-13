@@ -14,7 +14,7 @@ objetoBiblioteca.addb(book2)
 
 objetoBiblioteca.show()
 
-print(book1.prest())
-print(book1.prest())
-book1.ret()
-print(book1.prest())
+print(book1.lend())
+print(book1.lend())
+book1.back()
+print(book1.lend())
